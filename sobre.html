@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmatins | Sobre</title>
+    <style>
+        /* Estilos básicos para o menu */
+        ul.menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #ffffff;
+            overflow: hidden;
+            margin-left: 100px;
+        }
+
+        ul.menu li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        ul.menu li a {
+            display: block;
+            color: rgb(10, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.menu li a {
+            display: block;
+            color: rgb(10, 0, 0);
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border-radius: 15px;
+        }
+
+        ul.menu li a:hover,
+        ul.menu li a.active {
+            background-color: #0b43b9;
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estilo para a barra de pesquisa */
+        .search-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: -4%;
+        }
+
+        .search-container input[type="text"] {
+            padding: 10px;
+            font-size: 14px;
+            border-color: #000000;
+            width: 520px;
+            border-radius: 15px;
+        }
+
+        .search-container button {
+            padding: 14px 10px;
+            margin-top: 2px;
+            margin-left: 10px;
+            background: #0b43b9;
+            font-size: 14px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        /* Ajuste de posicionamento */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px 20px;
+        }
+
+        .logo-and-menu {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+        }
+
+        .logo {
+            max-width: 180px;
+            height: auto;
+            margin-left: 20px;
+        }
+
+        /* Estilos para os produtos */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+
+        .product-container {
+            
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            width: calc(50% - 20px);
+            margin-bottom: 20px;
+        }
+
+        .product img {
+            width: 270px;
+            height: 270px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .product button {
+            background-color: #0b43b9;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+           
+        }
+
+        .product button:hover {
+            background-color: #0738a6; /* Nova cor ao passar o mouse */
+        }
+
+        .divider {
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0b43b9;
+            color: white;
+        }
+
+        .footer ul {
+            list-style-type: nome;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .footer li {
+            margin: 0 10px;
+        }
+
+        .footer li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .carousel-slide {
+    width: 100%; /* Isso faz o banner ocupar toda a largura da tela */
+    /* Outras regras de estilo para o banner */
+}
+
+       
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo-and-menu">
+            <img src="imagens/FARMATINS.png" alt="logo" class="logo">
+            <ul class="menu">
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Barra de pesquisa -->
+    <div class="search-container">
+        <input type="text" placeholder="Qual medicamento está procurando...?">
+        <button type="submit">Procurar</button>
+    </div>
+
+    <hr class="divider">
+
+    <div class="carousel">
+        
+        <img src="imagens/bannerfarmatins.png" alt="Banner 3" class="carousel-slide">
+    </div
+    
+    <div class="paragraph">
+        <p>
+            <center><h1>Bem-vindo à Farmatins <br> Farmácia Universitária Online em Sitio Novo, Tocantins!</h1></center> 
+        </p>
+    </div>
+    
+    <div>
+           <p> A Farmatins é mais do que apenas uma farmácia online;
+            é o seu parceiro confiável na busca pelo bem-estar e saúde, 
+            combinando com excelência a comodidade da tecnologia moderna
+            com o compromisso de uma farmácia universitária. Localizada no
+            pitoresco município de Sitio Novo, no acolhedor estado do Tocantins,
+            a Farmatins orgulhosamente atende às necessidades da comunidade local
+            e além, com sua vasta gama de produtos e serviços farmacêuticos. </p>    
+    </div>
+    
+    <hr class="divider">
+
+    <div class="footer">
+                <p>© 2023 Farmatins. Todos os direitos reservados.</p>
+    </div>
+       
+</body>
+</html>

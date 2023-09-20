@@ -1,0 +1,228 @@
+        /* Estilos básicos para o menu */
+        ul.menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #ffffff;
+            overflow: hidden;
+            margin-left: 100px;
+        }
+
+        ul.menu li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        ul.menu li a {
+            display: block;
+            color: rgb(10, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.menu li a {
+            display: block;
+            color: rgb(10, 0, 0);
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border-radius: 15px;
+        }
+
+        ul.menu li a:hover,
+        ul.menu li a.active {
+            background-color: #0b43b9;
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estilo para a barra de pesquisa */
+        .search-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: -4%;
+        }
+
+        .search-container input[type="text"] {
+            padding: 10px;
+            font-size: 14px;
+            border-color: #000000;
+            width: 520px;
+            border-radius: 15px;
+        }
+
+        .search-container button {
+            padding: 14px 10px;
+            margin-top: 2px;
+            margin-left: 10px;
+            background: #0b43b9;
+            font-size: 14px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        /* Ajuste de posicionamento */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 10px 20px;
+        }
+
+        .logo-and-menu {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+        }
+
+        .logo {
+            max-width: 180px;
+            height: auto;
+            margin-left: 20px;
+        }
+
+        /* Estilos para os produtos */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+
+        .product-container {
+            
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            width: calc(50% - 20px);
+            margin-bottom: 20px;
+        }
+
+        .product img {
+            width: 270px;
+            height: 270px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .product button {
+            background-color: #0b43b9;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+           
+        }
+
+        .product button:hover {
+            background-color: #0738a6; /* Nova cor ao passar o mouse */
+        }
+
+        .divider {
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #0b43b9;
+            color: white;
+        }
+
+        .footer ul {
+            list-style-type: nome;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .footer li {
+            margin: 0 10px;
+        }
+
+        .footer li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .button{
+            background-color: #0d1acc;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* CSS para o carrossel */
+.carousel {
+    width: 100%;
+    max-width: 1330px; /* Largura máxima do carrossel */
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    width: 100%;
+    display: none;
+}
+
+/* Mostrar apenas a primeira imagem do carrossel */
+.carousel-slide:first-child {
+    display: block;
+}
+/* Estilos para os botões de controle do carrossel */
+.carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#prev-button,
+#next-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#prev-button:hover,
+#next-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo adicional para melhorar a acessibilidade */
+#prev-button:focus,
+#next-button:focus {
+    outline: none;
+    box-shadow: 0 0 2px 2px #007BFF;
+}
+
+/* ========================= */
+
+
